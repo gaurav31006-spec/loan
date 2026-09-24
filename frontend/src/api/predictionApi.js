@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const API_URL = `${import.meta.env.VITE_API_URL || 'http://127.0.0.1:5000'}/predict`;
+const API_URL = `${import.meta.env.VITE_API_URL || 'https://api-loan-h4g6.onrender.com'}/predict`;
 
 export const predictLoanDefault = async (data, model = 'all') => {
   try {
